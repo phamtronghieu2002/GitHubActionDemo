@@ -14,11 +14,11 @@ root.render(
     <Chatprovider>
       <Inputprovider>
         <ResponsiveProvider>
-          <Router basename={process.env.PUBLIC_URL}>
+   
             <GlobalStyles>
               <App />
             </GlobalStyles>
-          </Router>
+        
         </ResponsiveProvider>
       </Inputprovider>
     </Chatprovider>
