@@ -2,7 +2,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  BrowserRouter,
+
 } from "react-router-dom";
 import publicRoutes from "./routes";
 import { authContext } from "./providers/Authprovider";
@@ -14,26 +14,25 @@ function App() {
   const { currentUser } = useContext(authContext);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <Routes>
-        {publicRoutes.map((routes, index) => {
-          let Component = routes.component;
-          let path = routes.path;
-          let props = {};
-          if (routes.path == "/" && !currentUser) {
-            Component = Navigate;
-            props.to = Configs.routes.login;
-          }
-          return (
-            <Route
-              key={index}
-              path={path}
-              element={<Component {...props} />}
-            ></Route>
-          );
-        })}
-      </Routes>
-    </Router>
+ 
+     <Routes>
+     {publicRoutes.map((routes, index) => {
+       let Component = routes.component;
+       let path = routes.path;
+       let props = {};
+       if (routes.path == "/" && !currentUser) {
+         Component = Navigate;
+         props.to = Configs.routes.login;
+       }
+       return (
+         <Route
+           key={index}
+           path={path}
+           element={<Component {...props} />}
+         ></Route>
+       );
+     })}
+   </Routes>
   );
 }
 
