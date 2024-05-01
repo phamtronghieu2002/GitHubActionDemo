@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/phamtronghieu2002/GitHubActionDemo/static/css/main.5d4865d0.css",
-    "main.js": "/phamtronghieu2002/GitHubActionDemo/static/js/main.93a67827.js",
-    "static/js/787.6bdd369f.chunk.js": "/phamtronghieu2002/GitHubActionDemo/static/js/787.6bdd369f.chunk.js",
-    "index.html": "/phamtronghieu2002/GitHubActionDemo/index.html",
-    "main.5d4865d0.css.map": "/phamtronghieu2002/GitHubActionDemo/static/css/main.5d4865d0.css.map",
-    "main.93a67827.js.map": "/phamtronghieu2002/GitHubActionDemo/static/js/main.93a67827.js.map",
-    "787.6bdd369f.chunk.js.map": "/phamtronghieu2002/GitHubActionDemo/static/js/787.6bdd369f.chunk.js.map"
+    "main.css": "/GitHubActionDemo/static/css/main.5d4865d0.css",
+    "main.js": "/GitHubActionDemo/static/js/main.6570fb34.js",
+    "static/js/787.6bdd369f.chunk.js": "/GitHubActionDemo/static/js/787.6bdd369f.chunk.js",
+    "index.html": "/GitHubActionDemo/index.html",
+    "main.5d4865d0.css.map": "/GitHubActionDemo/static/css/main.5d4865d0.css.map",
+    "main.6570fb34.js.map": "/GitHubActionDemo/static/js/main.6570fb34.js.map",
+    "787.6bdd369f.chunk.js.map": "/GitHubActionDemo/static/js/787.6bdd369f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d4865d0.css",
-    "static/js/main.93a67827.js"
+    "static/js/main.6570fb34.js"
   ]
 }
