@@ -186,7 +186,7 @@ function Form({ login }) {
         </div>
         {login && (
           <p style={{ textAlign: "left", padding: "0 20px" }}>
-            Bạn chưa có tài khoản hãy{" "}
+            Bạn chưa có tài khoản thì hãy{" "}
             <Link style={{ margin: "0  0 0 10px" }} to="/register">
               Đăng kí
             </Link>
