@@ -75,7 +75,7 @@ function Form({ login }) {
         return;
       } else {
         if (password.length < 6) {
-          toast("password  tối thiểu 6 kí tự !!!");
+          toast("Mật khẩu tối thiểu 6 kí tự !!!");
           return;
         }
       }
@@ -105,7 +105,7 @@ function Form({ login }) {
           setStatus(true);
         }
       } catch (error) {
-        toast("email không hop le!!!");
+        toast("Email không hợp lệ!!!");
       }
     }
   };
@@ -186,7 +186,7 @@ function Form({ login }) {
         </div>
         {login && (
           <p style={{ textAlign: "left", padding: "0 20px" }}>
-            Bạn chưa có tài khoản thì hãy{" "}
+            Bạn chưa có tài khoản ?{" "}
             <Link style={{ margin: "0  0 0 10px" }} to="/register">
               Đăng kí
             </Link>
